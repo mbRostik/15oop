@@ -9,11 +9,11 @@ using System.Data.SqlClient;
 
 namespace _15oop
 {
-    internal class debilu
+    internal class lydi
     {
         private SqlConnection sqlconnection=new SqlConnection();
        
-        public debilu(SqlConnection conection)
+        public lydi(SqlConnection conection)
         {
             sqlconnection=conection;
             
@@ -55,7 +55,7 @@ namespace _15oop
             }
             sdr.Close();
         }
-
+        //4toto
         public void GetMinMatem()
         {
             SqlCommand sqlCommand = new SqlCommand("SELECT* FROM Grades WHERE MinPredmet='Matem'", sqlconnection);

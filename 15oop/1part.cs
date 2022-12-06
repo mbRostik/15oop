@@ -6,7 +6,7 @@ internal class Program
     {
         Data n= new Data();
         
-        debilu pup = new debilu(n.GetSQL());
+        lydi pup = new lydi(n.GetSQL());
 
         pup.GetAll();
         Console.WriteLine();
